@@ -11,6 +11,6 @@ public abstract class IConstraint extends IBase {
     }
 
     public void Show() {
-
+        ITools.Pn("you should override the methon Show in subclass!");
     }
 }
